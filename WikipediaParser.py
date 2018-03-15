@@ -1,3 +1,7 @@
+#Generates a CSV of Wikipedia link connevtions
+#The first entry of the line is the title of the page
+#The rest of the line is the titles of linked pages
+
 import urllib
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
